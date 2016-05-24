@@ -15,6 +15,11 @@
 		1793C6FF1CF446300072ECB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1793C6FD1CF446300072ECB2 /* LaunchScreen.storyboard */; };
 		1793C70A1CF446300072ECB2 /* SampleLoadingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793C7091CF446300072ECB2 /* SampleLoadingAppTests.m */; };
 		1793C7151CF446300072ECB2 /* SampleLoadingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793C7141CF446300072ECB2 /* SampleLoadingAppUITests.m */; };
+		1793C7241CF44C750072ECB2 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793C7231CF44C750072ECB2 /* IconDownloader.m */; };
+		1793C7271CF44CD20072ECB2 /* AppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793C7261CF44CD20072ECB2 /* AppRecord.m */; };
+		1793C7291CF44EC10072ECB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1793C7281CF44EC10072ECB2 /* UIKit.framework */; };
+		1793C72B1CF44ECA0072ECB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1793C72A1CF44ECA0072ECB2 /* Foundation.framework */; };
+		1793C72D1CF44ED80072ECB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1793C72C1CF44ED80072ECB2 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		1793C7101CF446300072ECB2 /* SampleLoadingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLoadingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1793C7141CF446300072ECB2 /* SampleLoadingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleLoadingAppUITests.m; sourceTree = "<group>"; };
 		1793C7161CF446300072ECB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1793C7221CF44C750072ECB2 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		1793C7231CF44C750072ECB2 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		1793C7251CF44CD20072ECB2 /* AppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRecord.h; sourceTree = "<group>"; };
+		1793C7261CF44CD20072ECB2 /* AppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRecord.m; sourceTree = "<group>"; };
+		1793C7281CF44EC10072ECB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1793C72A1CF44ECA0072ECB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1793C72C1CF44ED80072ECB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1793C72D1CF44ED80072ECB2 /* CoreGraphics.framework in Frameworks */,
+				1793C72B1CF44ECA0072ECB2 /* Foundation.framework in Frameworks */,
+				1793C7291CF44EC10072ECB2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,9 @@
 		1793C6E31CF4462F0072ECB2 = {
 			isa = PBXGroup;
 			children = (
+				1793C72C1CF44ED80072ECB2 /* CoreGraphics.framework */,
+				1793C72A1CF44ECA0072ECB2 /* Foundation.framework */,
+				1793C7281CF44EC10072ECB2 /* UIKit.framework */,
 				1793C6EE1CF446300072ECB2 /* SampleLoadingApp */,
 				1793C7081CF446300072ECB2 /* SampleLoadingAppTests */,
 				1793C7131CF446300072ECB2 /* SampleLoadingAppUITests */,
@@ -105,6 +123,10 @@
 				1793C6F31CF446300072ECB2 /* AppDelegate.m */,
 				1793C6F51CF446300072ECB2 /* ViewController.h */,
 				1793C6F61CF446300072ECB2 /* ViewController.m */,
+				1793C7221CF44C750072ECB2 /* IconDownloader.h */,
+				1793C7231CF44C750072ECB2 /* IconDownloader.m */,
+				1793C7251CF44CD20072ECB2 /* AppRecord.h */,
+				1793C7261CF44CD20072ECB2 /* AppRecord.m */,
 				1793C6F81CF446300072ECB2 /* Main.storyboard */,
 				1793C6FB1CF446300072ECB2 /* Assets.xcassets */,
 				1793C6FD1CF446300072ECB2 /* LaunchScreen.storyboard */,
@@ -276,6 +298,8 @@
 				1793C6F71CF446300072ECB2 /* ViewController.m in Sources */,
 				1793C6F41CF446300072ECB2 /* AppDelegate.m in Sources */,
 				1793C6F11CF446300072ECB2 /* main.m in Sources */,
+				1793C7241CF44C750072ECB2 /* IconDownloader.m in Sources */,
+				1793C7271CF44CD20072ECB2 /* AppRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
